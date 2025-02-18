@@ -59,6 +59,9 @@ Compile and upload the `AutomaticRollerBlinds.ino` file to your ESP8266.
 | `roller/roll_max` | Move to max position   |
 | `roller/set_max` | Save current position as max |
 
+### 4. Notes
+Adjust TMC2298 VREF to 1.0V
+
 ## Future Improvements
 - Use **FRAM storage** instead of EEPROM to prevent write limits.
 - Integrate with **Home Assistant** for automation.
